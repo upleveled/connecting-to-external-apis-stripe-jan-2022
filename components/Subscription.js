@@ -11,7 +11,7 @@ export function Subscription({ clickHandler, productPrice }) {
       </p>
       <img alt="magazine" src="/images/magazine.jpg" />
       <button
-        onClick={() => clickHandler('subscription', productPrice.priceId)}
+        onClick={() => clickHandler(productPrice.mode, productPrice.priceId, 1)}
       >
         Subscribe for {currencySymbol[productPrice.currency]}{' '}
         {productPrice.unitAmount / 100} month
