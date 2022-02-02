@@ -10,7 +10,7 @@ On this branch you can see the starting code for the exercise.
 - Keys are under `Home` -> `get your api keys`
 - Clone this repo
   ```sh
-  $ git clone https://github.com/upleveled/connecting-to-External-apis-stripe-jan-2022.git
+  $ git clone https://github.com/upleveled/connecting-to-external-apis-stripe-jan-2022.git
   ```
 - Make sure you are on the `starting-point` branch
 - Install dependencies
